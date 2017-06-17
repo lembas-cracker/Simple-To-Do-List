@@ -1,6 +1,17 @@
+html {
+  position: relative;
+}
 body {
   text-align: center;
+
 }
-h1 {
-  text-align: center;
+
+ul {
+  width: 600px;
+  margin: 350px;
+}
+div.input-group-lg{
+   width: 560px;
+   text-align: center;
+   margin-left: 405px;
 }
