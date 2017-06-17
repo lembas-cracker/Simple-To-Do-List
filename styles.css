@@ -1,5 +1,6 @@
-.task li {
-  display: block;
-  border: 1px, solid, grey;
-
+body {
+  text-align: center;
+}
+h1 {
+  text-align: center;
 }
