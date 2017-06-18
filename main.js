@@ -4,14 +4,11 @@
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
 
-  if(e.keyCode == 13) {
+  if(e.keyCode == 13 && inputValue !=='') {
    li.className = "newEl"
    li.classList.add("list-group-item")
    var item = document.querySelector(".myUl").appendChild(li);
    document.querySelector(".myInput").value = '';
-    if(inputValue == '') {
-      item.remove();
-    }
   }
 
 });
