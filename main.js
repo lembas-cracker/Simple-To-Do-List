@@ -7,7 +7,10 @@
   if(e.keyCode == 13) {
    li.className = "newEl"
    li.classList.add("list-group-item")
-   document.querySelector(".myUl").appendChild(li);
-   document.querySelector(".myInput").value = '';
+   var item = document.querySelector(".myUl").appendChild(li);
+    if(inputValue == '') {
+      item.remove();
+    }
   }
+
 });

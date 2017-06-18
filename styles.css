@@ -1,7 +1,12 @@
 html {
   position: relative;
 }
-body {
+.jumbotron {
   text-align: center;
+
+}
+.li {
+  text-align: left;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
 }
