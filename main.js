@@ -8,6 +8,6 @@
    li.className = "newEl"
    li.classList.add("list-group-item")
    document.querySelector(".myUl").appendChild(li);
-   return document.querySelector(".myInput").value = '';
+   document.querySelector(".myInput").value = '';
   }
 });
