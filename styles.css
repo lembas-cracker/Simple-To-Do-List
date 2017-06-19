@@ -5,8 +5,15 @@ html {
   text-align: center;
 
 }
-.li {
+  li {
   text-align: left;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 150%;
 
 }
+ .glyphicon:hover {
+   background-color: #dcdcdc;
+}
+ .list-group-item span {
+  border-radius: 50px;
+ }
