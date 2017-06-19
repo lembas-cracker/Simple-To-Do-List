@@ -9,10 +9,16 @@ html {
   text-align: left;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size: 150%;
-
 }
+
+  #static-li {
+    display: none;
+  }
+
+
  .glyphicon:hover {
    background-color: #dcdcdc;
+}
 }
  .list-group-item span {
   border-radius: 50px;
